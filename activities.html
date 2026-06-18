@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NEDI — Activities</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; }
+
+.navbar { display: flex; background-color: #333; }
+.navbar a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; }
+.navbar a:hover { background-color: #ddd; color: black; }
+
+.row { display: flex; min-height: 100vh; }
+.side, .rightside { flex: 25%; background-color: #f1f1f1; padding: 20px; }
+.main { flex: 50%; background-color: white; padding: 20px 20px 20px 3%; }
+
+.main a { color: black; }
+.main a:hover { background-color: #ffffcc; }
+.main h3 { font-size: 18px; margin-top: 25px; margin-bottom: 12px; }
+.main h3:first-child { margin-top: 0; }
+
+.publication { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
+.publication:last-child { border-bottom: none; }
+.publication h4 { margin: 0 0 4px 0; font-size: 14px; }
+.pub-meta { font-size: 13px; color: #555; margin: 4px 0; line-height: 1.5; }
+.pub-meta a { color: #555; }
+.pub-buttons { margin-top: 8px; }
+
+button.btn, a.btn {
+    background-color: #e7e7e7; border: none; color: black;
+    padding: 5px 10px; font-size: 12px; cursor: pointer;
+    margin-right: 5px; text-decoration: none; display: inline-block;
+}
+button.btn:hover, a.btn:hover { background-color: #d0d0d0; }
+
+/* CV specific */
+.cv-section { margin-bottom: 6px; }
+.cv-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.cv-title { font-weight: bold; }
+.cv-year { color: #666; font-size: 13px; white-space: nowrap; padding-left: 10px; }
+.cv-sub { font-size: 13px; color: #444; margin-left: 0; }
+.cv-note { font-size: 12px; color: #666; font-style: italic; }
+
+.side h4 { margin-top: 0; }
+.side p, .rightside p { font-size: 13px; line-height: 1.6; }
+figcaption { font-size: 11px; padding: 5px; color: #666; }
+
+.fa { padding: 10px; font-size: 15px; width: 40px; text-align: center;
+       text-decoration: none; margin: 5px 2px; }
+.fa-linkedin { background: #007bb5; color: white; }
+.fa-google   { background: #dd4b39; color: white; }
+
+.footer { padding: 40px; text-align: center; background: #f1f1f1;
+           font-size: 12px; color: #888; }
+
+@media (max-width: 900px) {
+    .row { flex-direction: column; }
+    .navbar { flex-direction: column; }
+}
+
+@media print {
+    @page { size: A4; margin: 2cm 2.5cm; }
+    .navbar, .footer, .side, .rightside, .pub-buttons { display: none !important; }
+    .row { display: block; }
+    .main { width: 100%; padding: 0; font-size: 10pt; line-height: 1.45; color: #000; }
+    body { font-family: Arial, sans-serif; font-size: 10pt; }
+    h3 { font-size: 11pt; border-bottom: 1px solid #aaa;
+          padding-bottom: 2pt; margin-top: 14pt; margin-bottom: 6pt; }
+    h3:first-child { margin-top: 0; }
+    .cv-section { page-break-inside: avoid; margin-bottom: 5pt; }
+    .cv-year { font-size: 9pt; }
+    .cv-sub { font-size: 9.5pt; }
+    .cv-note { font-size: 9pt; }
+    a { color: black; text-decoration: none; }
+    .publication { page-break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="research.html">Research</a>
+  <a href="cv.html">CV</a>
+</div>
+<div class="row">
+  <div class="side">
+    <h4>Contact details</h4>
+    <p>KU Leuven<br>Naamsestraat 69
+3000 Leuven
+Belgium
+<br><br>E-mail: marleen.marra [at] kuleuven.be</p>
+    <br>
+    <a href="https://erc.europa.eu/homepage" target="_blank"><img src="pics/ERC_logo.png" alt="ERC" height="40"></a><br><br>
+<a href="https://feb.kuleuven.be/research/economics" target="_blank"><img src="pics/KULeuven.png" alt="KU Leuven" height="40"></a><br><br>
+<a href="https://www.sciencespo.fr/department-economics/en.html" target="_blank"><img src="pics/scpoecon_logo.jpg" alt="Sciences Po" height="40"></a><br><br>
+<a href="https://cepr.org/" target="_blank"><img src="pics/CEPRLOGO.png" alt="CEPR" height="40"></a><br><br>
+
+    <a href="https://www.linkedin.com/in/marleen-marra-0290a916/" class="fa fa-linkedin" target="_blank"></a>
+<a href="https://scholar.google.co.uk/citations?user=jzrJz3IAAAAJ&hl=en" class="fa fa-google" target="_blank"></a>
+
+  </div>
+  <div class="main">
+    <h3>Activities</h3>
+
+  </div>
+  <div class="rightside">
+    
+  </div>
+</div>
+<div class="footer">Updated June 18, 2026</div>
+</body>
+</html>

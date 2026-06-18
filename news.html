@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NEDI — News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+.navbar { display: flex; background-color: #196f3d; }
+.navbar a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; }
+.navbar a:hover { background-color: #145a32; }
+.container { max-width: 860px; margin: 40px auto; background: white;
+              padding: 30px 40px; border-radius: 4px;
+              box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+h3 { font-size: 18px; border-bottom: 2px solid #196f3d;
+      padding-bottom: 8px; margin-bottom: 24px; color: #196f3d; }
+.btn { background-color: #e7e7e7; border: none; color: black;
+       padding: 5px 10px; font-size: 12px; cursor: pointer;
+       text-decoration: none; display: inline-block; }
+.btn:hover { background-color: #d0d0d0; }
+.footer { text-align: center; padding: 30px; color: #aaa; font-size: 12px; }
+@media (max-width: 900px) {
+    .container { padding: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="outputs.html">Research</a>
+</div>
+<div class="container">
+  <h3>News &amp; Activities</h3>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <img src="pics/news/speaker_placeholder.png" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:4px;flex-shrink:0;">
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#196f3d;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">🎙 visitor</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2026-10-20</span>
+       <span style="color:#aaa;font-size:11px;">(tentative)</span>
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">Market Design for Slot Allocation</div>
+    <div style="font-size:12px;color:#555;margin-bottom:5px;"><a href="https://example.com/janesmith" target="_blank">Jane Smith</a> &mdash; University of Chicago</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">A new mechanism design approach to allocating scarce airport slots under demand uncertainty.
+</div>
+    <div style="margin-top:8px;"><a href="https://example.com/janesmith" target="_blank" class="btn">Personal page</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <img src="pics/news/news_placeholder.png" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:4px;flex-shrink:0;">
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#b7950b;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📰 media</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2026-10-15</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">APCAP featured in Belgian economic policy newsletter</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">The APCAP project was featured in the Belgian Economic Policy Newsletter, highlighting its potential implications for European aviation regulation.
+</div>
+    <div style="margin-top:8px;"><a href="https://example.com/article" target="_blank" class="btn">Read article</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <img src="pics/news/speaker_placeholder.png" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:4px;flex-shrink:0;">
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#196f3d;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">🎙 visitor</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2026-09-15</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">Congestion Pricing and Airport Efficiency</div>
+    <div style="font-size:12px;color:#555;margin-bottom:5px;"><a href="https://example.com/johndoe" target="_blank">John Doe</a> &mdash; London School of Economics</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">This paper studies the effects of congestion pricing on airport efficiency and welfare in the presence of market power.
+</div>
+    <div style="margin-top:8px;"><a href="https://papers.ssrn.com/example" target="_blank" class="btn">Paper</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <img src="pics/news/news_placeholder.png" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:4px;flex-shrink:0;">
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#1a5276;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📢 announcement</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2026-09-01</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">NEDI launches at KU Leuven</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">The Network Economics and Design Institute (NEDI) officially launches at KU Leuven, supported by an ERC Starting Grant (APCAP, 2026-2031). The institute will focus on auction design, infrastructure capacity allocation, and market design for policy.
+</div>
+    <div style="margin-top:8px;"><a href="https://research.kuleuven.be/EU/p/he/p1/erc/apcap" target="_blank" class="btn">More about APCAP</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <img src="pics/news/news_placeholder.png" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:4px;flex-shrink:0;">
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#c0392b;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">💼 vacancy</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2026-09-01</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">PhD Position in Market Design / Structural Econometrics</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">We are hiring a PhD student to work on the APCAP project at KU Leuven. The position is fully funded for 4 years. We are looking for candidates with a strong background in economics and quantitative methods.
+</div>
+    <div style="margin-top:8px;"><a href="#" target="_blank" class="btn">Apply here</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <div style="width:80px;height:80px;border-radius:4px;flex-shrink:0;background:#2471a3;display:flex;align-items:center;justify-content:center;color:white;font-size:28px;font-weight:bold;">R</div>
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#2471a3;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📄 research</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2025</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">Estimating an Auction Platform Game with Two-Sided Entry</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">Published in <em>Journal of Political Economy</em>. By Marleen Marra.</div>
+    <div style="margin-top:8px;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879222" target="_blank" class="btn">SSRN</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <div style="width:80px;height:80px;border-radius:4px;flex-shrink:0;background:#2471a3;display:flex;align-items:center;justify-content:center;color:white;font-size:28px;font-weight:bold;">R</div>
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#2471a3;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📄 research</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2024</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">Ownership Frictions in a Procurement Market: Evidence from London Buses</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">Published in <em>International Journal of Industrial Organization</em>. By Marleen Marra, Florian Oswald.</div>
+    <div style="margin-top:8px;"><a href="https://www.sciencedirect.com/science/article/pii/S0167718724000353" target="_blank" class="btn">Paper</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <div style="width:80px;height:80px;border-radius:4px;flex-shrink:0;background:#2471a3;display:flex;align-items:center;justify-content:center;color:white;font-size:28px;font-weight:bold;">R</div>
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#2471a3;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📄 research</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2024</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">A Market for Airport Slots</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">New working paper. By Marleen Marra.</div>
+    <div style="margin-top:8px;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4948006" target="_blank" class="btn">SSRN</a></div>
+  </div>
+</div>
+<div style="display:flex;gap:16px;margin-bottom:28px;padding-bottom:24px;
+            border-bottom:1px solid #eee;align-items:flex-start;">
+  <div style="width:80px;height:80px;border-radius:4px;flex-shrink:0;background:#2471a3;display:flex;align-items:center;justify-content:center;color:white;font-size:28px;font-weight:bold;">R</div>
+  <div style="flex:1;">
+    <div style="margin-bottom:6px;">
+      <span style="background:#2471a3;color:white;padding:3px 10px;border-radius:3px;font-size:11px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;">📄 research</span>
+      <span style="color:#888;font-size:12px;margin-left:10px;">2024</span>
+      
+    </div>
+    <div style="font-weight:bold;font-size:14px;margin-bottom:5px;">The Geography of Market Power: Firm Location, Spatial Rents, and Their Social Costs</div>
+    <div style="font-size:13px;color:#444;line-height:1.6;">New working paper. By Marleen Marra, Florian Oswald.</div>
+    <div style="margin-top:8px;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6946158" target="_blank" class="btn">SSRN</a></div>
+  </div>
+</div>
+
+</div>
+<div class="footer">Updated June 18, 2026</div>
+</body>
+</html>
